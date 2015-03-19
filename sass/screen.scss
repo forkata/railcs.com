@@ -1,0 +1,190 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$main-font-color: #fff;
+$main-background-color:#812d2e; 
+
+
+body{
+	background-color:$main-font-color;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+#home-background{
+	background-color:$main-background-color;
+	height:800px;
+}
+#title-overlay{
+	display:absolute;
+	width:100%;
+	margin-top:300px;
+
+	h1{
+		color:$main-font-color;
+		font-size:4.5em;
+		margin:0 auto;
+		font-weight:300;
+		text-align:center;
+		text-transform:uppercase;
+	}
+}
+.navbar
+{
+	background-color:$main-background-color;
+	border:none;
+	margin-bottom:0px;
+	border-radius:0px;
+
+	ul {
+		background-color:$main-background-color;
+	}
+}
+#railsNav{
+	li {
+		background-color:$main-background-color;
+		border:none;
+		a {
+			color:$main-font-color;
+			font-size:1.2em;
+			font-weight:300;
+		}
+	}	
+}
+#project{
+	margin:80px 0px;
+	h3{
+		color:#8c8c8c; 	
+		font-size:2.2em;
+		font-weight:300;
+		margin-bottom:50px;
+	}
+	button {
+		margin-top:50px;
+		padding: 12px 12px;
+        border-radius: 5px;
+  		background-color: #9dd4cf;
+	    border: none;
+	    color: #fff;
+	    text-transform:uppercase;
+	}
+}
+#project-intro{
+	height:475px;
+	background-color:#f2f2f2;
+}
+#team {
+	margin:0 auto;
+	h3 {
+		color:#8c8c8c; 	
+		font-size:2.2em;
+		font-weight:300;
+		margin:100px 0px;;
+	}	
+	#team-intro {
+		height:350px;
+		background-color:#f2f2f2;	
+		margin-bottom:50px;
+		text-align:center;
+
+		h4{
+			padding:10px 0px;
+		}
+		h5{
+			padding-bottom:5px;
+		}
+		div{
+			padding:0 30px
+		}
+	}
+	button {
+		margin-bottom:25px;
+		padding: 12px 12px;
+	    border-radius: 5px;
+	    background-color: #9dd4cf;
+	    border: none;
+	    color: #fff;
+	    text-transform:uppercase;
+	}
+}
+#secondary-nav{
+	height:150px;
+	background-color:#757575;
+	margin-top:25px;
+}
+#first-nav{
+	height:100px;
+	background-color:$main-font-color;
+
+		p{
+			margin-top:50px;
+		}
+}
+#chan{
+	width: 150px;
+	height: 150px;
+	margin:0 auto;
+	margin-top:35px;
+	margin-bottom:35px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/chan.png") no-repeat;
+}
+#he{
+	width: 150px;
+	height: 150px;
+	margin:0 auto;
+	margin-top:35px;
+	margin-bottom:35px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/he.png") no-repeat;
+}
+#todorov{
+	width: 150px;
+	height: 150px;
+	margin:0 auto;
+	margin-top:35px;
+	margin-bottom:35px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/todorov.png") no-repeat;
+}
+#project2,
+#project1{
+	width:450px;
+	height:300px;
+	background-color:$main-font-color;
+	margin-top:90px;
+	margin-left:25%;
+
+		h4{
+			padding-top:10px;
+			text-transform:uppercase;
+		}
+}
+
+.content{
+	margin-top:50px;
+	min-height:600px;
+  	line-height:1.5em;
+
+  	p{
+  		font-size:1.1em;
+  	}
+
+  	h3{
+  		color:#8c8c8c; 	
+		font-size:2.2em;
+		font-weight:300;
+		margin:100px 0px;;
+  	}
+
+  	section{
+  		margin:50px 0px;
+  	}
+}
+
